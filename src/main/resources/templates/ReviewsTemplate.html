@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/main/resources/static/styles/ReviewsStyles.css">
+    <title>Anime Character Reviews</title>
+</head>
+<body>
+
+<header>
+    <h1>Anime Character Reviews</h1>
+</header>
+
+<h2>What It's About</h2>
+<p>Yeah so I'm pretty much just gonna talk about anime characters that I think are cool and stuff. Yolo.</p>
+
+<main>
+    <ul>
+        <li th:each="review: ${reviewsModel}"><a th:href="@{/review(id=${review.id})}" th:text="${review.characterName}"></a></li>
+    </ul>
+</main>
+
+<nav><li th:each="review: ${reviewsModel}"><a th:href="@{/review(id=${review.id})}" th:text="${review.characterName}"></a></li></nav>
+
+</body>
+</html>

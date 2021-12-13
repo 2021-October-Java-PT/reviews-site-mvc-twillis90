@@ -1,0 +1,44 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+* {
+    background-color: dimgrey;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75rem;
+    color: cyan;
+}
+
+html {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+a:hover {
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
+
+header {
+    background-image: url(src\main\resources\static\images\characterGroup.jpg);
+    background-position: center top;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    box-sizing: border-box;
+    border-radius: .5rem;
+}
+
+img {
+    max-width: 70%;
+    opacity: 0.7;
+}

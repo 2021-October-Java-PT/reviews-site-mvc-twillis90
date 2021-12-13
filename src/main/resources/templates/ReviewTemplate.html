@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title th:text="${reviewModel.characterName}">A review</title>
+</head>
+<body>
+
+<header>
+    <h1 th:text="${reviewModel.characterName}">A Review</h1>
+</header>
+
+
+<main>
+    <ul>
+        <p><a href="/reviews">Other Character Reviews</a></p>
+        <li th:text="${reviewModel.characterName}"></li>
+        <img src="${reviewModel.imageUrl}" alt="Character Image">
+        <li th:text="${reviewModel.reviewContent}"></li>
+    </ul>
+    <h2 th:text="${reviewModel.rating}"></h2>
+</main>
+</body>
+</html>
