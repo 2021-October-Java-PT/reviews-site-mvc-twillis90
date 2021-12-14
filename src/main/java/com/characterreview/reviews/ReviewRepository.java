@@ -15,13 +15,13 @@ public class ReviewRepository {
         Review vegeta = new Review(1001L, "Vegeta", "8/10", "Top tier Anime Character. " +
                 "A+ character Arch.  Villain turned anti-hero turned straight up hero. Motivated and driven. " +
                 "Pride is his strength and his downfall. Entertaining, motivational, and about that smoke " +
-                "for these reasons and more I give The Prince of All Saiyans a:", "src\main\resources\static\images\vegeta.jpg");
-        Review sasuke = new Review(1002L, "Sauske Uchiha", "4/10", "review here", "/static/images/sasuke.jpg");
-        Review leMillion = new Review(1003L, "Mirio Togata", "9/10", "review", "/static/images/mirio.jpg");
-        Review itachi = new Review(1004L, "Itachi Uchiha", "10/10", "review", "/static/images/itachi.jpg");
-        Review deku = new Review(1005L, "Izuku Midoriya", "6/10", "review", "/static/image/deku.jpg");
-        Review tanjiro = new Review(1006L, "Tanjiro Kamado", "7/10", "review", "/static/images/tanjiro.jpg");
-        Review rengoku = new Review(1007L, "Kyojuro Rengoku", "10/10", "review", "/static/images/rengoku.jpg");
+                "for these reasons and more I give The Prince of All Saiyans a:", "images/vegeta.jpg");
+        Review sasuke = new Review(1002L, "Sauske Uchiha", "4/10", "review here", "images/sasuke.jpg");
+        Review leMillion = new Review(1003L, "Mirio Togata", "9/10", "review", "images/mirio.jpg");
+        Review itachi = new Review(1004L, "Itachi Uchiha", "10/10", "review", "images/itachi.jpg");
+        Review deku = new Review(1005L, "Izuku Midoriya", "6/10", "review", "images/deku.jpg");
+        Review tanjiro = new Review(1006L, "Tanjiro Kamado", "7/10", "review", "images/tanjiro.jpg");
+        Review rengoku = new Review(1007L, "Kyojuro Rengoku", "10/10", "review", "images/rengoku.jpg");
 
         reviewList.put(vegeta.getId(), vegeta);
         reviewList.put(sasuke.getId(), sasuke);

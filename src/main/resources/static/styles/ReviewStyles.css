@@ -1,0 +1,67 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+* {
+    background-color: dimgrey;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75rem;
+    color: cyan;
+    padding: auto;
+    padding-bottom: 1.5rem;
+}
+
+html {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+body {
+    justify-content: center;
+    margin: 10%;
+}
+
+a:hover {
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+header {
+    background-position: center top;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    box-sizing: border-box;
+    border-radius: .5rem;
+}
+
+img {
+    max-width: 70%;
+}
+
+#review {
+    border: ivory;
+    border-style: groove;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#rating {
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background-color: black;
+    padding-top: 1rem;
+}
+
+#homeButton {
+    text-decoration: overline;
+}

@@ -9,6 +9,11 @@
     padding: 0;
     line-height: 1.75rem;
     color: cyan;
+    padding-bottom: .5rem;
+}
+
+body {
+    text-align: center;
 }
 
 html {
@@ -23,11 +28,10 @@ a {
 a:hover {
     background-color: black;
     box-sizing: border-box;
-    border-radius: 2rem;
+    border-radius: .5rem;
 }
 
 header {
-    background-image: url(src\main\resources\static\images\characterGroup.jpg);
     background-position: center top;
     text-align: center;
     padding: 1rem;

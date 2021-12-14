@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/ReviewStyles.css">
     <title th:text="${reviewModel.characterName}">A review</title>
 </head>
 <body>
@@ -14,13 +15,10 @@
 
 
 <main>
-    <ul>
-        <p><a href="/reviews">Other Character Reviews</a></p>
-        <li th:text="${reviewModel.characterName}"></li>
         <img src="${reviewModel.imageUrl}" alt="Character Image">
-        <li th:text="${reviewModel.reviewContent}"></li>
-    </ul>
-    <h2 th:text="${reviewModel.rating}"></h2>
+        <p id="review" th:text="${reviewModel.reviewContent}"></p>
+    <h2 id="rating" th:text="${reviewModel.rating}"></h2>
+    <p><a id="homeButton" href="/reviews">Other Character Reviews</a></p>
 </main>
 </body>
 </html>
