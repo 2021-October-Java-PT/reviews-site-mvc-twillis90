@@ -15,7 +15,7 @@
 
 
 <main>
-        <img src="${reviewModel.imageUrl}" alt="Character Image">
+        <img th:src="${reviewModel.imageUrl}" alt="Character Image">
         <p id="review" th:text="${reviewModel.reviewContent}"></p>
     <h2 id="rating" th:text="${reviewModel.rating}"></h2>
     <p><a id="homeButton" href="/reviews">Other Character Reviews</a></p>
